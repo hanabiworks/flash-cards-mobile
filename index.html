@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
         <h1 id="furi"></h1>
-        <h1 id="cards">危険</h1>
+        <div id="cards">危険</div>
         <h1 id="cards2">危険</h1>
         <p id="demo" onclick="answer()">Resposta</p>
         <p id="demo2" onclick="next()">Próximo</p>
@@ -59,12 +62,14 @@
             margin-top: 130px;
         }
         #cards{
+            margin-top: 25px;
+            font-family: 'Noto Sans JP', sans-serif;
             line-height: 0px;
             font-size: 50px;
         }
         #cards2{
             line-height: 200px;
-            font-size: 50px;
+            font-size: 40px;
         }
         #demo{
             margin-top: 150px;
