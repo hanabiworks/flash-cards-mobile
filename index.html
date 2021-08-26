@@ -18,9 +18,11 @@
         var a = window.document.getElementById('demo');
         a.addEventListener('click', clicar);
         a.addEventListener('mouseout', sair);
-        const palavras = ["絞める", "その通り", "破る", "暴力"];    
-        const respostas = ["Estrangular", "Algo assim", "Rasgar", "Violencia"];
-        const furigana = ["しめる", "そのとおり", "やぶる", "ぼうりょく"]
+        const palavras = ["発言", "恋人同士", "確定", "行動", "宣言", "証明", "曲げる", "緑", "勇気", "襟", "重力", "告白", "間抜け", "それとも", "機会", "茂み", "予感", "気まずい", "憶測", "帰り道"];    
+        const respostas = ["Afirmação", "Par de namorados", "Decisão", "Ação", "Declaração", "Prova", "Dobrar", "Verde", "Coragem", "Colarinho",
+                             "Gravidade", "Confissão", "Estupidez", "Ou também", "Chance", "Matagal", "Pressentimento", "Desagradável", "Especulação", "Caminho de casa"];
+        const furigana = ["はつげん", "こいびとどうし", "かくてい", "こうどう", "せんげん", "しょうめい", "まげる", "みどり", "ゆうき"
+                        , "えり", "じゅうりょく", "こくはく", "まぬけ", "それとも", "きかい", "しげみ", "よかん", "気まずい", "おくそく", "かえりみち"]
 
         function next() {
             document.getElementById("cards").innerText = palavras[Math.floor(Math.random()*palavras.length)];
